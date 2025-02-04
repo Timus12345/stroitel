@@ -3,12 +3,12 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-abstract class AppColor
+abstract class AppColors
 {
   static const orange = Color(0xFFEE7100);
   static const lightGrey = Color(0xFFADADAD);
   static const white = Color(0xFFFFFFFF);
-  static const black = Color(0x00000000); //иногда к нему будет добавляться opacity +-15%!!
+  static const black = Color(0xFF000000); //иногда к нему будет добавляться opacity +-15%!!
   static const grey = Color(0xFFBCBCBC);//poisk in menu
   static const grey2 = Color(0xFF8C8C8C);//thext mobile phone in profile
 }
